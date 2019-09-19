@@ -26,5 +26,19 @@ namespace ResolucaoPSIDiag2019_20
         {
             return this.Marca + " - " + this.Modelo;
         }
+        public string GetMatricula()
+        {
+            return Matricula;
+        }
+
+        public DateTime GetEntradaSaida()
+        {
+            return DataHoraEntrada;
+        }
+
+        public string GetMarca()
+        {
+            return Marca;
+        }
     }
 }
