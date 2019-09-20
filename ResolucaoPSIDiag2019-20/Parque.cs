@@ -52,7 +52,7 @@ namespace ResolucaoPSIDiag2019_20
             bool encontra = false;
             foreach(Ligeiro l in Veiculos)
             {
-                if (l.GetMarca() == marca)
+                if (l.GetMarca().ToLower() == marca.ToLower())
                 {
                     Console.WriteLine(l.ToString());
                     encontra = true;
